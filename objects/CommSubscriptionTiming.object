@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
-        <actionName>Accept</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Accept</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Accept</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -140,45 +126,50 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Wacky</fullName>
-                    <default>false</default>
-                    <label>Wacky</label>
-                </value>
-                <value>
-                    <fullName>Tacky</fullName>
-                    <default>false</default>
-                    <label>Tacky</label>
-                </value>
-                <value>
-                    <fullName>Clean</fullName>
-                    <default>false</default>
-                    <label>Clean</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
+        <fullName>CommSubscriptionConsentId</fullName>
+        <inlineHelpText>The communication subscription consent record associated with the communication subscription timing.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
     </fields>
+    <fields>
+        <fullName>Offset</fullName>
+        <inlineHelpText>The amount of time before or after an event or the specific day of the week that you should communciate with the contact point. Set the unit of time in Unit. For example, if you set Unit as &quot;Week&quot; and Offset as &quot;-4&quot; communicate with the contact point four weeks before the event. If you set Offset as &quot;4&quot; communicate with the contact point four weeks after the event. If you set Unit as &quot;Day of Week&quot; and Offset as &quot;1,&quot; communicate with the contact point on Monday. If you set Offset as &quot;7&quot; communicate with the contact point on Sunday.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PreferredTimeEnd</fullName>
+        <inlineHelpText>End of the preferred time span in which to reach the contact point.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PreferredTimeStart</fullName>
+        <inlineHelpText>Start of the preferred time span in which to reach the contact point.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PreferredTimeZone</fullName>
+        <inlineHelpText>Time zone of the preferred time span.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Unit</fullName>
+        <inlineHelpText>The unit of time that works with Offset to determine the communication timing.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>Unit</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Offset</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PreferredTimeStart</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PreferredTimeEnd</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PreferredTimeZone</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Unit</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Offset</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PreferredTimeStart</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PreferredTimeEnd</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PreferredTimeZone</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

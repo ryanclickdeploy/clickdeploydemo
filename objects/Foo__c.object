@@ -152,33 +152,23 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Wacky</fullName>
-                    <default>false</default>
-                    <label>Wacky</label>
-                </value>
-                <value>
-                    <fullName>Tacky</fullName>
-                    <default>false</default>
-                    <label>Tacky</label>
-                </value>
-                <value>
-                    <fullName>Clean</fullName>
-                    <default>false</default>
-                    <label>Clean</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
+    <fieldSets>
+        <fullName>SKU</fullName>
+        <availableFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Identifies SKU Name</description>
+        <label>SKU</label>
+    </fieldSets>
+    <label>Foo</label>
+    <nameField>
+        <label>Foo Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Foos</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
 </CustomObject>
