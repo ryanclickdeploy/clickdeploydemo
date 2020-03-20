@@ -181,13 +181,4 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>Widget</label>
-    <nameField>
-        <label>Widget Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Widgets</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
