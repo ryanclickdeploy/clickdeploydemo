@@ -7,13 +7,52 @@
         <label>Phone</label>
     </standardValue>
     <standardValue>
+<<<<<<< HEAD
+=======
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Community</fullName>
+        <default>false</default>
+        <label>Community</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </standardValue>
+    <standardValue>
+>>>>>>> master
         <fullName>Email</fullName>
         <default>false</default>
         <label>Email</label>
     </standardValue>
     <standardValue>
+<<<<<<< HEAD
         <fullName>Web</fullName>
         <default>false</default>
         <label>Web</label>
+=======
+        <fullName>YouTube</fullName>
+        <default>false</default>
+        <label>YouTube</label>
+>>>>>>> master
     </standardValue>
 </StandardValueSet>

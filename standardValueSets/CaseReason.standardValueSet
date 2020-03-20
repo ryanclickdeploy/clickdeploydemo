@@ -2,6 +2,7 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+<<<<<<< HEAD
         <fullName>Installation</fullName>
         <default>false</default>
         <label>Installation</label>
@@ -41,6 +42,35 @@
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
+=======
+        <fullName>Technical Support</fullName>
+        <default>true</default>
+        <label>Technical Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing Support</fullName>
+        <default>false</default>
+        <label>Billing Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrades</fullName>
+        <default>false</default>
+        <label>Upgrades</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Knowledge Inquiry</fullName>
+        <default>false</default>
+        <label>Knowledge Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complaint</fullName>
+        <default>false</default>
+        <label>Complaint</label>
+>>>>>>> master
         <cssExposed>false</cssExposed>
     </standardValue>
 </StandardValueSet>

@@ -127,7 +127,10 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+<<<<<<< HEAD
     <externalSharingModel>ControlledByParent</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>ErrorMessage</fullName>
         <type>Picklist</type>

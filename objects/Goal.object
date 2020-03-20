@@ -12,4 +12,8 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+<<<<<<< HEAD
 </CustomObject>
+=======
+</CustomObject>
+>>>>>>> master
