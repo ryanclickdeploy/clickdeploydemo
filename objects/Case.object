@@ -198,6 +198,10 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
+<<<<<<< HEAD
+    <externalSharingModel>Private</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -282,13 +286,18 @@
     </fields>
     <fields>
         <fullName>Origin</fullName>
+<<<<<<< HEAD
+=======
         <inlineHelpText>Indicate where the case originated.</inlineHelpText>
+>>>>>>> master
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <fields>
+<<<<<<< HEAD
+=======
         <fullName>OriginOpportunity__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -312,6 +321,7 @@
         <type>Lookup</type>
     </fields>
     <fields>
+>>>>>>> master
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>

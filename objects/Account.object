@@ -227,6 +227,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+<<<<<<< HEAD
+    <externalSharingModel>Private</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -353,13 +357,24 @@
         <unique>false</unique>
     </fields>
     <fields>
+<<<<<<< HEAD
+        <fullName>OperatingHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+=======
+>>>>>>> master
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
+<<<<<<< HEAD
+=======
         <inlineHelpText>Who owns the Account</inlineHelpText>
+>>>>>>> master
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>

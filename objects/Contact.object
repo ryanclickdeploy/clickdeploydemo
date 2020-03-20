@@ -325,6 +325,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+<<<<<<< HEAD
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>

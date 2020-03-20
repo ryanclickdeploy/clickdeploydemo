@@ -52,7 +52,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+        <customLabel>false</customLabel>
+=======
         <customLabel>true</customLabel>
+>>>>>>> master
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>System Information</label>

@@ -114,6 +114,10 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+<<<<<<< HEAD
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>DuplicateRecordSetId</fullName>
         <type>MasterDetail</type>
