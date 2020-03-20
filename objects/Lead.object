@@ -255,7 +255,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+<<<<<<< HEAD
     <externalSharingModel>Private</externalSharingModel>
+=======
+>>>>>>> master
     <fields>
         <fullName>Address</fullName>
         <trackFeedHistory>false</trackFeedHistory>
