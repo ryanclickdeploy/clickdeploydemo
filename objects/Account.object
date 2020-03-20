@@ -230,9 +230,10 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Field1__c</fullName>
+        <complianceGroup>HIPAA;PCI</complianceGroup>
         <externalId>false</externalId>
         <label>Field 1</label>
-        <length>10</length>
+        <length>12</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
@@ -546,6 +547,15 @@
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
     </webLinks>
+    <validationRules>
+        <fullName>Correct_Address</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+OR(BillingCountry = &quot;CAN&quot;, BillingCountry = &quot;CA&quot;, BillingCountry = &quot;Canada&quot;),
+NOT(REGEX(BillingPostalCode, &quot;((?i)[ABCEGHJKLMNPRSTVXY]\\d[A-Z]?\\s?\\d[A-Z]\\d)?&quot;))
+)</errorConditionFormula>
+        <errorMessage>Must be a valid address</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>Length_over_2</fullName>
         <active>true</active>
