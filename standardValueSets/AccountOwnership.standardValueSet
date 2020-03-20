@@ -21,9 +21,12 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+<<<<<<< HEAD
+=======
     <standardValue>
         <fullName>Internal</fullName>
         <default>false</default>
         <label>Internal</label>
     </standardValue>
+>>>>>>> master
 </StandardValueSet>

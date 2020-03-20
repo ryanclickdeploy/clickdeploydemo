@@ -7,6 +7,8 @@
         <label>Phone</label>
     </standardValue>
     <standardValue>
+<<<<<<< HEAD
+=======
         <fullName>Twitter</fullName>
         <default>false</default>
         <label>Twitter</label>
@@ -37,13 +39,20 @@
         <label>Facebook</label>
     </standardValue>
     <standardValue>
+>>>>>>> master
         <fullName>Email</fullName>
         <default>false</default>
         <label>Email</label>
     </standardValue>
     <standardValue>
+<<<<<<< HEAD
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+=======
         <fullName>YouTube</fullName>
         <default>false</default>
         <label>YouTube</label>
+>>>>>>> master
     </standardValue>
 </StandardValueSet>
