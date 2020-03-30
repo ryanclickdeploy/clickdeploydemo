@@ -128,10 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-    <externalSharingModel>ReadWrite</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>ConsumptionScheduleId</fullName>
         <type>Lookup</type>

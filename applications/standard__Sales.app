@@ -12,10 +12,6 @@
     <tabs>standard-Forecasting3</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Order</tabs>
-<<<<<<< HEAD
-    <tabs>standard-Invoice</tabs>
-=======
->>>>>>> master
     <tabs>standard-Case</tabs>
     <tabs>standard-Solution</tabs>
     <tabs>standard-Product2</tabs>

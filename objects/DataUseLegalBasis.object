@@ -128,10 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-    <externalSharingModel>Private</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>

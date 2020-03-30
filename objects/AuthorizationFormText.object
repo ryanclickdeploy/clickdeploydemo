@@ -128,10 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>AuthorizationFormId</fullName>
         <trackHistory>false</trackHistory>

@@ -114,10 +114,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-    <externalSharingModel>ReadWrite</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>Description</fullName>
     </fields>
@@ -125,13 +121,6 @@
         <fullName>RevenueEndDate</fullName>
     </fields>
     <fields>
-<<<<<<< HEAD
-        <fullName>RevenueSourceId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-=======
->>>>>>> master
         <fullName>RevenueStartDate</fullName>
     </fields>
     <searchLayouts>

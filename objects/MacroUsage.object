@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <externalSharingModel>Private</externalSharingModel>
-=======
->>>>>>> master
->>>>>>> ce297866f1a2acdeb134ddd7ad750a48492c21eb
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -203,13 +203,6 @@
         <fullName>Phone</fullName>
     </fields>
     <fields>
-<<<<<<< HEAD
-        <fullName>ServiceAppointmentId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-=======
->>>>>>> master
         <fullName>ShowAs</fullName>
     </fields>
     <fields>

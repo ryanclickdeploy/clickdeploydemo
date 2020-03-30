@@ -58,10 +58,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-<<<<<<< HEAD
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>Categories</fullName>
         <type>Picklist</type>

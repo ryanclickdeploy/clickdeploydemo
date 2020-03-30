@@ -227,10 +227,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-<<<<<<< HEAD
-    <externalSharingModel>Private</externalSharingModel>
-=======
->>>>>>> master
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -321,6 +317,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Field1__c</fullName>
+        <complianceGroup>HIPAA;PCI;COPPA</complianceGroup>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a field, please complete.</inlineHelpText>
+        <label>Field 1</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -357,24 +365,12 @@
         <unique>false</unique>
     </fields>
     <fields>
-<<<<<<< HEAD
-        <fullName>OperatingHoursId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-=======
->>>>>>> master
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
-<<<<<<< HEAD
-=======
-        <inlineHelpText>Who owns the Account</inlineHelpText>
->>>>>>> master
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -527,6 +523,16 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Correct_Addresses_listed</fullName>
+        <active>true</active>
+        <description>Need correct address for Account Contact</description>
+        <errorConditionFormula>AND(
+OR(BillingCountry = &quot;CAN&quot;, BillingCountry = &quot;CA&quot;, BillingCountry = &quot;Canada&quot;),
+NOT(REGEX(BillingPostalCode, &quot;((?i)[ABCEGHJKLMNPRSTVXY]\\d[A-Z]?\\s?\\d[A-Z]\\d)?&quot;))
+)</errorConditionFormula>
+        <errorMessage>Must be a valid addresses to submit.</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
