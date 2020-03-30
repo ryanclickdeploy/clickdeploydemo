@@ -291,10 +291,6 @@
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
-<<<<<<< HEAD
-=======
-        <inlineHelpText>Update to the total amount.  Ask your manager if you do not understand the calculation.</inlineHelpText>
->>>>>>> master
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
